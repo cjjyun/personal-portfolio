@@ -16,16 +16,18 @@ p {
 }
 
 /*nav選單*/
+.navbar {
+  background-color: #fff;
+}
+
 .navbar-brand img {
 	height: 60px;
 	background-color: #c1adad;
 }	
 
-/* nav顏色調整 */
-.navbar {
-  background-color: #fff;
+.navbar-nav li {
+	font-family: "Century Gothic";
 }
-
 
 /*banner*/
 .banner {
@@ -219,8 +221,15 @@ footer {
 	color: #fff;
 }
 
-footer p {
-	line-height: 39px;
+.copyright {
+	font-family: "Century Gothic";
+	text-align: center;
+}
+
+.media {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0 auto;
 }
 
 @media (min-width: 768px) {
