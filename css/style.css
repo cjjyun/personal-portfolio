@@ -38,6 +38,21 @@ p {
 	margin-top: 0px;
 }
 
+.pics {
+	filter: brightness(60%);
+}
+
+.hello {
+	position: absolute;
+	font-size: 90px;
+	color: #fff;
+	z-index: 1;
+	text-align: center;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
+
 
 /*關於我*/
 .about {
@@ -53,12 +68,8 @@ p {
 .about img {
 	box-shadow:2px 2px 4px gray;
 }
-.title {
-	font-size:20px;
-	font-weight: bold;
-}
 
-.title_line {
+.about .title_line {
 	border-color:#ffffff;
 }
 
@@ -132,7 +143,7 @@ p {
 
 /*聯絡我*/
 .contact {
-	height:750px;
+	height:730px;
 	padding-top: 50px;
 	background-image: url(../img/contact.jpg);
 	background-repeat: no-repeat;
@@ -144,8 +155,13 @@ p {
 .contact .title {
 	font-family: "Century Gothic";
 	font-size: 50px;
-	color: #ffffff;
-	padding-bottom: 30px;
+	color: #000;
+	border-style: none;
+	padding-top: 15px;
+}
+
+.contact .title_line {
+	border-style: none;
 }
 
 .contact .form {
@@ -183,12 +199,13 @@ p {
 
 input[type=submit] {
   background-color: #181818;
+ 	font-family: "Century Gothic";
   color: #fff;
   cursor: pointer;
   width: 100px!important;
-  height: 45px;
+  height: 50px;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 55px;
 }
 
 input[type=submit]:hover {
